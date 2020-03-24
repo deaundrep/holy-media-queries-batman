@@ -49,3 +49,34 @@
   width: 100vw;
   background-color: #f08a4b;
 }
+
+@media (min-width: 700px){
+  #header{
+    height: 15%;
+    width: 100vw;
+  }
+  #middle{
+    flex-direction: column;
+    height: 65%;
+  }
+  #nav{
+    width: 100%;
+  }
+  #article{
+  height: 100%;
+  width: 70%;
+  
+  }
+  #footer{
+    height: 17%;
+    width: 100vw;
+  }
+#main{
+    width: auto;
+    height: 100%;
+    flex-direction: column;
+  }
+
+}
+
+@media
